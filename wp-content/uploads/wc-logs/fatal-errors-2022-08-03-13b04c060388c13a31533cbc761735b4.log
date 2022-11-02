@@ -1,0 +1,83 @@
+2022-08-03T15:47:35+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:47:35+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:47:35+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:47:41+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:47:41+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:47:41+00:00 CRITICAL Uncaught Error: Call to a member function add_setting() on null in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php:199
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-settings.php(566): include()
+#1 C:\wamp64\www\Avocado\wp-config.php(96): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-load.php(50): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\A...')
+#4 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#5 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 199
+
+2022-08-03T15:51:23+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 206
+
+2022-08-03T15:59:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_setting(), 0 passed in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 200 and at least 1 expected in C:\wamp64\www\Avocado\wp-includes\class-wp-customize-manager.php:3765
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php(200): WP_Customize_Manager->add_setting()
+#1 C:\wamp64\www\Avocado\wp-includes\class-wp-hook.php(307): my_customize_register(Object(WP_Customize_Manager))
+#2 C:\wamp64\www\Avocado\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\Avocado\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\Avocado\wp-includes\class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#5 C:\wamp64\www\Avocado\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#6 C:\wamp64\www\Avocado\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C: in C:\wamp64\www\Avocado\wp-includes\class-wp-customize-manager.php on line 3765
+
+2022-08-03T16:15:13+00:00 CRITICAL syntax error, unexpected ''mime_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 209
+
+2022-08-03T16:15:27+00:00 CRITICAL syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 209
+
+2022-08-03T16:16:33+00:00 CRITICAL syntax error, unexpected ''mime_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 209
+
+2022-08-03T16:16:35+00:00 CRITICAL syntax error, unexpected ''mime_type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 209
+
+2022-08-03T16:16:48+00:00 CRITICAL syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\functions.php on line 209
+

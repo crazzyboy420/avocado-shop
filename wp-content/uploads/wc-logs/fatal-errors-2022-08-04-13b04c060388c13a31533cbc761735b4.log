@@ -1,0 +1,25 @@
+2022-08-04T12:07:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php on line 116 and exactly 2 expected in C:\wamp64\www\Avocado\wp-includes\plugin.php:165
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php(116): apply_filters('woocommerce_cat...')
+#1 C:\wamp64\www\Avocado\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\A...')
+#3 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#4 {main}
+  thrown in C:\wamp64\www\Avocado\wp-includes\plugin.php on line 165
+
+2022-08-04T12:07:40+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php:116
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\Avocado\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#3 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php on line 116
+
+2022-08-04T12:16:29+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php:116
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\Avocado\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\A...')
+#2 C:\wamp64\www\Avocado\index.php(17): require('C:\\wamp64\\www\\A...')
+#3 {main}
+  thrown in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php on line 116
+

@@ -1,0 +1,32 @@
+2022-08-02T15:48:40+00:00 CRITICAL Uncaught Error: Call to undefined function avocado_product_categorise_list() in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\avocado-product-hover-cart.php:51
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): avocado_product_hover_cart_widget->register_controls()
+#1 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\avocado-product-hover-cart.php on line 51
+
+2022-08-02T15:50:21+00:00 CRITICAL Uncaught Error: Call to undefined function avocado_product_categorise_list() in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\avocado-product-hover-cart.php:51
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): avocado_product_hover_cart_widget->register_controls()
+#1 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\avocado-product-hover-cart.php on line 51
+
+2022-08-02T15:50:48+00:00 CRITICAL Uncaught Error: Call to undefined function avocado_product_categorise_list() in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\blog-post-widgets.php:56
+Stack trace:
+#0 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2282): blog_post_widget->register_controls()
+#1 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(2369): Elementor\Controls_Stack->get_controls()
+#5 C:\wamp64\www\Avocado\wp-content\plugins\elementor\includes\base\controls-stack.php(1105): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 C:\wamp64\www\Avocado\wp-co in C:\wamp64\www\Avocado\wp-content\plugins\avocado-toolkit\avocado-widgets\blog-post-widgets.php on line 56
+
+2022-08-02T18:39:21+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\archive-product.php on line 37
+

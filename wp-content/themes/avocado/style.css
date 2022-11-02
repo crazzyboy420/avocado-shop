@@ -1,0 +1,220 @@
+/*!
+Theme Name: Avocado
+Theme URI: http://underscores.me/
+Author: Rasel Ahmde
+Author URI: http://rasel-ahmed.unaux.com/
+Description: Avocado Wordpress Wonderfull Theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: avocado
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Avocado is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Sections
+	 ========================================================================== */
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Header CSS8*/
+.header-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-top ul li {
+    display: inline-block;
+}
+
+.header-top ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-right: 15px;
+    padding: 10px 0;
+}
+.main-header-area ul.social-area {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header-area ul.social-area li {
+    display: inline-block;
+}
+
+.main-header-area ul.social-area li a {
+    display: block;
+    color: #000;
+    margin-right: 15px;
+}
+.header-right-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.header-right-area ul li {
+    display: inline-block;
+}
+
+.header-right-area ul li a {
+    display: block;
+    color: #333;
+    width: 40px;
+    height: 40px;
+    background: #f4f7f8;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.header-right-area ul li .count {
+    position: absolute;
+    left: 1.5px;
+    bottom: -4px;
+    width: 25px;
+    height: 25px;
+    background: #ee4e23;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-right-area ul li {
+    position: relative;
+}
+img.custom-logo {
+    width: auto;
+    max-height: 100px;
+}
+p.header-text {
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 300;
+}
+.flex-display{
+	display: flex;
+	align-items: center;
+}
+.main-menu ul#primary-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.main-menu ul#primary-menu li {
+    display: inline-block;
+}
+
+.main-menu ul#primary-menu li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    padding: 30px;
+}
+a.search-taggle{
+	display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+.header-bottom-area {
+    background: #2f2f34;
+    margin-top: 30px;
+}
+
+.menu-menu-1-container {
+    display: inline-block;
+}
+
+.main-menu {
+    text-align: center;
+}
+
+/*Footer CSS*/
+.footer-widget {
+    /* text-align: center; */
+}
+
+.footer-widget p {
+    margin: 0;
+    color: #676767;
+    margin-bottom: 3px;
+}
+
+.footer-widget a {
+    color: #676767;
+    text-decoration: none;
+}
+@media (min-width: 600px)
+.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image) {
+    width: 20% !important;
+}
+.footer-widget figure.wp-block-image.size-large {
+    width: 20% !important;
+}
+.footer-widget .wp-block-gallery.has-nested-images.alignleft{
+    width: 50%;
+}
+.footer-widget .wp-block-group__inner-container {
+    margin-top: 28px;
+    margin-bottom: 7px;
+}
+.footer-widget .footer-wiget-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer-widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.footer-widget ul li {
+    margin-bottom: 8px;
+}
+.site-footer {
+    background-color: #f4f7f8;
+    padding: 75px 0;
+}
+
+/*Copyright Css*/
+.copyright-text p {
+    text-align: center;
+}
+
+.copyright-text {
+    background-color: #f4f7f8;
+    padding-bottom: 40px;
+}

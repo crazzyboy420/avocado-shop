@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\Users\\ronyb\\OneDrive\\Desktop\\js"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"nuxt.isNuxtApp": false
+	}
+}

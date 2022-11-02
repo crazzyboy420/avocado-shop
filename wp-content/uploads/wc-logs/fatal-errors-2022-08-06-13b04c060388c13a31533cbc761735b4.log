@@ -1,0 +1,14 @@
+2022-08-06T06:48:28+00:00 CRITICAL syntax error, unexpected ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 27
+
+2022-08-06T06:48:48+00:00 CRITICAL syntax error, unexpected ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 27
+
+2022-08-06T06:49:57+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 27
+
+2022-08-06T06:50:10+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 29
+
+2022-08-06T06:50:14+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 29
+
+2022-08-06T06:50:42+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\loop\loop-start.php on line 29
+
+2022-08-06T07:10:40+00:00 CRITICAL syntax error, unexpected '}', expecting ')' in C:\wamp64\www\Avocado\wp-content\themes\avocado\Woocommerce\content-product.php on line 49
+

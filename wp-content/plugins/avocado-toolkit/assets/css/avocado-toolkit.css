@@ -1,0 +1,774 @@
+@font-face {
+    font-family: 'Tahu!';
+    src: url('../custom-font/Tahu!.eot');
+    src: url('../custom-font/Tahu!.eot#iefix') format('embedded-opentype'),
+        url('../custom-font/Tahu!.ttf') format('truetype'),
+        url('../custom-font/Tahu!.woff') format('woff'),
+        url('../custom-font/Tahu!.svg#Tahu!') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Avocado Hero widgets CSS*/
+.avocado-content-area > h2 {
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Tahu!',sans-serif;
+}
+
+.avocado-content-area p {
+    color: #fff;
+    font-weight: 100;
+    margin-top: 23px;
+}
+
+.avocado-content-area a.box-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #ee4e23;
+    padding: 18px 55px;
+    border-radius: 34px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.avoacado-hero-area {
+    padding-top: 100px;
+    padding-bottom: 350px;
+    
+}
+
+.avoacado-hero-area {
+    position: relative;
+}
+
+.avocado-hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    clip-path: ellipse(90% 100% at 50% 0%);
+    background-position: center;
+    background-size: cover;
+}
+/*Product Category*/
+.single-cat .cat-thumb img {
+    height: 170px;
+    width: auto;
+}
+
+.single-cat h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.single-cat {
+    text-align: center;
+}
+
+.single-cat p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #676767;
+}
+
+.single-cat .no-thum p {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+}
+
+.single-cat .no-thum {
+    height: 170px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col.cat-background {
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+}
+/*avocado Product Carousel CSS*/
+.avocado-product-thumb-background {
+    box-shadow: 0px 0px 10px #eceeef;
+    padding: 80px 100px 100px 100px;
+    background: #fff;
+    margin: 10px 0;
+    z-index: 99999;
+}
+
+.avocado-product-thumbnail {
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+
+
+div#avocado-product-carousel {
+    margin-top: -67px;
+    margin-bottom: -67px;
+}
+.on-sale {
+    display: inline-block;
+    background: #e23709;
+    padding: 7px 27px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.product-info >h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.avocado-singl-product-carousel .star-rating {
+    margin: 0 auto;
+}
+.avocado-singl-product-carousel .star-rating span::before{
+    color: #e23709;
+}
+span.avocado-get-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e23709;
+}
+
+span.raular-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+span.avocado-sale-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #e23709;
+    margin-right: 15px;
+}
+
+
+.avocado-product-price {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.avocado-singl-product-carousel  a.button {
+    display: inline-block;
+    background: #689418;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 14px 36px;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.avocado-singl-product-carousel .star-rating::before{
+    color: #e23709;
+}
+div#avocado-product-carousel .slick-arrow {
+    border: unset;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    margin-top: -35px;
+    right: -30px;
+}
+
+div#avocado-product-carousel svg.fa-angle-right,div#avocado-product-carousel svg.fa-angle-left {
+    font-size: 25px;
+    color: #758a95;
+}
+div#avocado-product-carousel button.arrow-prev {
+    left: -30px;
+}
+.avocado-product-thumb-background >h2 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cout-down strong {
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase;
+}
+
+.cout-down span {
+    display:table;
+    background: #a4bbc6;
+    margin-left: 2px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 90px;
+    height: 70px;
+}
+
+
+.cout-down {
+    display: flex;
+    justify-content: center;
+}
+.cout-down>span>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cout-down span:first-child {
+    border-radius: 10px 0px 0 10px;
+}
+.cout-down span:last-child {
+    border-radius: 0 10px 10px 0px;
+}
+.getting-started {
+    margin-bottom: 20px;
+}
+.pount {
+    display: inline-block;
+}
+.pount {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 6px;
+}
+
+.pount span {
+    margin-right: 5px;
+    font-weight: 500;
+}
+.variable-product-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #e23709;
+}
+/*Woocommerce Product page CSS*/
+.avocado_product_thumb {
+    width: 100%;
+    height: 260px;
+    background-position: center;
+    background-size: cover;
+}
+
+.avocado-product-info {
+    text-align: center;
+}
+
+.avocado-product-info h4 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+span.woocommerce-Price-amount.amount {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+.variable-product-price del{
+    color: #000;  
+} 
+.variable-product-price ins {
+    color: #e23709;
+    background: unset;
+    margin-left: 7px;
+}
+
+a.add_to_cart.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    background: #689418;
+    color: #fff;
+    padding: 12px 23px;
+    border-radius: 25px;
+    margin-top: 18px;
+    display: none !important;
+    transition: .4s;
+}
+.avocado_product{
+    transition: .4ss;
+}
+.avocado_product:hover{
+    margin-left: -20px;
+  box-shadow: 0 0 19px 1px #ddd;
+    width: 115%;
+    height: 115%;
+    cursor: pointer;
+}
+.avocado_product:hover a.add_to_cart.button{
+    display: inline-block !important;
+}
+
+nav.woocommerce-pagination {
+    text-align: center;
+    width: 100%;
+    width: 200px;
+}
+.avocado_single_product{
+    transition: .4s;
+}
+.avocado_product:hover .avocado_single_product{
+  
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.elementor-element.product_content {
+    height: 421px;
+}
+/*Section Title Css*/
+.section-title >h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.section-title >p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #676767;
+    margin: 0;
+    padding: 0;
+}
+
+/*Woocommerce Product*/
+
+.woocommerce-shop li.product.type-product {
+    height: 394px;
+    overflow: visible;
+    margin-top: -61px;
+}
+
+.woocommerce-shop li.product.type-product:hover {
+    overflow: visible;
+    z-index: 33;
+    background: #ffff;
+}
+
+.woocommerce-shop .avocado_product {
+    background: #fff;
+}
+.woocommerce-shop .products{
+    margin-top: 85px;
+}
+
+
+.woocommerce-category li.product.type-product {
+    height: 394px;
+    overflow: visible;
+    margin-top: -61px;
+}
+
+.woocommerce-category li.product.type-product:hover {
+    overflow: visible;
+    z-index: 33;
+    background: #ffff;
+}
+
+.woocommerce-category .avocado_product {
+    background: #fff;
+}
+.woocommerce-category .products{
+    margin-top: 85px;
+}
+
+/*Overite CSS For list view*/
+
+.woocommerce-category .product_list_view li.product.type-product {
+    height: auto;
+    overflow: unset;
+    margin-top: unset;
+}
+
+.woocommerce-category .product_list_view li.product.type-product:hover {
+    overflow: unset;
+    z-index: unset;
+}
+
+.woocommerce-shop .product_list_view li.product.type-product {
+    height: auto;
+    overflow: unset;
+    margin-top: unset;
+}
+
+.woocommerce-shop .product_list_view li.product.type-product:hover {
+    overflow: unset;
+    z-index: unset;
+}
+.woocommerce-category .product_list_view.products{
+    margin-top: 20px;
+}
+.woocommerce-shop .product_list_view.products{
+    margin-top: 20px;
+}
+/*Avocado Hovar cart title css*/
+a.hover-title-button {
+    display: inline-block;
+    background: #689418;
+    color: #fff !important;
+    padding: 12px 36px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-title img {
+    margin-top: 5px;
+}
+/*Icon Css*/
+.h-6{
+    height: 24px;
+}
+.w-6{
+    width: 24px;
+}
+
+/*Click Product Cart*/
+.ch-product {
+    position: relative;
+}
+
+
+.single-ch-product button,.ch-product-card-details .circle-box {
+    position: absolute;
+    bottom: -16%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background-color: #ee4e23;
+    margin-left: -30px;
+}
+.ch-product-card-details .circle-box{
+    bottom: -7%;
+}
+.single-ch-product {
+    position: relative;
+    display: inline-block;
+}
+.ch-product .single-ch-product img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.ch-product-card-details h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.ch-product-card-details {
+    position: absolute;
+    top: -175%;
+    left: -38%;
+    text-align: center;
+    background: #fff;
+    width: 265px;
+    box-shadow: 0px 0px 25px #e8ecef;
+    padding: 50px 30px;
+    border-radius: 5px;
+    z-index: 22;
+}
+
+.ch-product  .ch-product-card-details img {
+    border-radius: 50%;
+}
+
+.ch-product-card-details .add_to_cart_button {
+    display: inline-block;
+    background-color: #689418;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.ch-product-card-details span.avocado-get-price {
+    color: #000;
+}
+.ch-product-area{
+    min-height: 600px;
+    position: relative;
+}
+.ch-product:nth-child(2) {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+.ch-product:nth-child(3) {
+    position: absolute;
+    left: 58%;
+    top: 20%;
+}
+.ch-product:nth-child(4) {
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+.ch-product:nth-child(5) {
+    position: absolute;
+    left: 20%;
+    top: 45%;
+}
+.ch-product:nth-child(6) {
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+}
+.ch-product:nth-child(7) {
+    position: absolute;
+    left: 55%;
+    bottom: 10%;
+}
+.product-close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ch-product-card-details .yith-wcwl-add-button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.ch-product-card-details .yith-wcwl-add-button a {
+    color: #000;
+}
+.ch-product-card-details .yith-wcwl-wishlistexistsbrowse a:before,.ch-product-card-details .yith-wcwl-wishlistaddedbrowse a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f004";  
+	color: #333;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+/*Product ajax tab CSS*/
+.product-featured {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ccc;
+}
+.ajax-featured-product .section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+ul.product-ajax-taggle {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul.product-ajax-taggle li {
+    display: inline-block;
+    margin: 0 13px;
+    position: relative;
+    transition: .4s all ease-in-out;
+}
+
+ul.product-ajax-taggle li button {
+    background: unset;
+    border: unset;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+}
+ul.product-ajax-taggle li:hover button{
+    color: #ee4e23;
+}
+ul.product-ajax-taggle li.active button{
+    color: #ee4e23;
+}
+ul.product-ajax-taggle li::before{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 3px;
+    background-color: #ee4e23;
+    bottom: -5px;
+    content: "";
+    border-radius: 25px;
+    left: 0;
+    transition: .4s all ease-in-out;
+    width: 0%;
+}
+ul.product-ajax-taggle li:hover::before{
+    width: 100%;
+}
+ul.product-ajax-taggle li.active::before{
+    width: 100%;
+}
+.ajax-append .ajax-category-img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+.maring-b-20{
+    margin-bottom: 30px;
+}
+.single-product {
+    text-align: center;
+}
+.single-product h4 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #000;
+    margin-bottom: 0;
+}
+.product-price bdi {
+    font-size: 15px;
+    font-weight: 300;
+}
+.product-price del span.woocommerce-Price-amount.amount >bdi {
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.product-price ins span.woocommerce-Price-amount.amount >bdi {
+    background: #fff;
+    color: #e23709;
+}
+
+/*Blog post Css*/
+.blog-post-bg {
+    width: 100%;
+    height: 278px;
+    background-color: #e8ecef;
+}
+.blog-post-bg > img{
+    height: 278px;
+}
+.single-blog-post {
+    text-align: center;
+    padding-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+.single-blog-post h3 {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.single-blog-post span {
+    font-size: 15px;
+    font-weight: 300;
+    color: #636363;
+}
+.blog-height{
+    height: 278px !important;
+}
+.single-post-link{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+/*product review css*/
+#product_review_slider{
+    overflow-x: hidden;
+}
+.not-fount {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background: #ddd;
+    padding: 10px 0;
+}
+h3.review-title {font-size: 18px;font-weight: 500;color: #000;margin-top: 10px;}
+
+.product-review-thumbnail {width: 112px;height: 112px;border-radius: 50%;background-position: center;background-size: contain;}
+.slider-padding {padding: 20px 10px;}
+
+.product-review-thumbnail {margin: 0 auto;}
+
+.single-product-review {text-align: center;padding: 50px;box-shadow: 0px 0px 14px #ddd;}
+.single-product-review p {font-size: 15px;font-weight: 300;color: #676767;margin-top: 10px;}
+
+
+
+
+/*Subscribe Form CSS*/
+.mailpoet_form {
+    width: 40%;
+    margin: 0 auto;
+     position: relative;
+}
+
+.mailpoet_form input.mailpoet_submit {
+    background-color: #ee4e23;
+    color: #fff;
+    padding: 18px 43px !important;
+    border-radius: 25px;
+    top: 2px;
+    text-transform: uppercase !important;
+    right: 2px;
+}
+
+.mailpoet_form input#form_email_5 {
+    height: 58px;
+    border-radius: 29px;
+    padding: 0 20px !important;
+}
+
+.mailpoet_form input#form_email_5:focus {
+    outline: unset;
+}
+.mailpoet_form input.mailpoet_submit {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+.Subscribe h2 {
+    font-family: 'Tahu!',sans-serif;
+    font-size: 100px;
+    color: #010101;
+}
+.widget.Subscribe {
+    margin: 0;
+    margin-bottom: -14px;
+}
